@@ -15,6 +15,10 @@
             href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
         <style>
             * {
                 padding: 0;
@@ -28,6 +32,58 @@
                 background-color: #222831;
             }
 
+            header {
+                position: fixed;
+                width: 100%;
+                z-index: 1;
+                background: linear-gradient(90deg, #ffc600 0%, #00adb5 80%);
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                height: 60px;
+                width: 65%;
+                margin: 0 auto;
+            }
+
+            .header {
+                font-family: "Pacifico", cursive;
+                font-size: 1.6rem;
+            }
+
+            .navbarBtns {
+                height: 0;
+                overflow: hidden;
+                transition: all 0.3s linear;
+                position: absolute;
+                right: 0;
+                top: 62px;
+                background-color: #00adb5;
+                width: 90px;
+                border-radius: 8px;
+                text-align: center;
+            }
+
+            .navbarBtns a {
+                text-decoration: none;
+                font-size: 1.2rem;
+                margin: 0;
+                font-family: "Pacifico", cursive;
+            }
+
+            .navbarBtns span {
+                color: #ffc600;
+                font-family: "Pacifico", cursive;
+            }
+
+            .navbarDropdownBtn {
+                cursor: pointer;
+                font-size: 1.8rem;
+            }
+
             h1 {
                 font-size: 5rem;
                 font-family: "Pacifico", cursive;
@@ -39,8 +95,9 @@
                 font-size: 4rem;
                 font-family: "Pacifico", cursive;
                 font-weight: 400;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 text-align: center;
+                padding-top: 80px;
             }
 
             h2 span {
@@ -130,11 +187,30 @@
             p {
                 font-size: 1.3em;
             }
+
+            .navbarOpen {
+                height: 170px;
+            }
         </style>
     </head>
     <body>
-        <h1>Patika Frontend Projects</h1>
-        <h2>Patika Week <span>6</span></h2>
+        <header>
+            <div class="navbar">
+                <div class="header">Patika Frontend Projects</div>
+                <div class="navbarBtns">
+                    <a href="#week1">Week <span>1</span></a>
+                    <a href="#week2">Week <span>2</span></a>
+                    <a href="#week3">Week <span>3</span></a>
+                    <a href="#week4">Week <span>4</span></a>
+                    <a href="#week6">Week <span>6</span></a>
+                </div>
+                <div class="navbarDropdownBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <h2 id="week6">Patika Week <span>6</span></h2>
 
         <!-- To Do List -->
         <div class="container">
@@ -272,7 +348,7 @@
             </div>
         </div>
 
-        <h2>Patika Week <span>4</span></h2>
+        <h2 id="week4">Patika Week <span>4</span></h2>
 
         <!-- Drum Kit -->
         <div class="container">
@@ -344,7 +420,7 @@
             </div>
         </div>
 
-        <h2>Patika Week <span>3</span></h2>
+        <h2 id="week3">Patika Week <span>3</span></h2>
 
         <!-- Bootstrap Instagram Clone -->
         <div class="container">
@@ -413,7 +489,7 @@
             </div>
         </div>
 
-        <h2>Patika Week <span>2</span></h2>
+        <h2 id="week2">Patika Week <span>2</span></h2>
 
         <!-- Google Page -->
         <div class="container">
@@ -546,7 +622,7 @@
             </div>
         </div>
 
-        <h2>Patika Week <span>1</span></h2>
+        <h2 id="week1">Patika Week <span>1</span></h2>
 
         <!-- HTML Homework 1 -->
         <div class="container">
@@ -722,5 +798,38 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            // Navbar Dropdown Menu Actions
+            const dropdownBtn = document.querySelector(".navbarDropdownBtn");
+            const navbarBtns = document.querySelector(".navbarBtns");
+            const navbarDropdownBtnIcon = document.querySelector(
+                ".navbarDropdownBtn i"
+            );
+
+            dropdownBtn.addEventListener("click", () => {
+                navbarBtns.classList.toggle("navbarOpen");
+                const isOpen = navbarBtns.classList.contains("navbarOpen");
+
+                navbarDropdownBtnIcon.classList = isOpen
+                    ? "fa-solid fa-xmark"
+                    : "fa-solid fa-bars";
+            });
+
+            // Smooth transition between sections on the page
+            document.querySelectorAll('a[href^="#"]').forEach((navBtn) => {
+                navBtn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    let sectionId = e.target.getAttribute("href");
+
+                    navbarBtns.classList.remove("navbarOpen");
+                    navbarDropdownBtnIcon.classList = "fa-solid fa-bars";
+
+                    document.querySelector(`${sectionId}`).scrollIntoView({
+                        behavior: "smooth",
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
