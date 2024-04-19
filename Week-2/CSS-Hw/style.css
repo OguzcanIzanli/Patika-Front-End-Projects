@@ -1,0 +1,98 @@
+body {
+    width: 60%;
+    margin: auto;
+    background-color: #FFD460;
+    color: #2D4059;
+    font-size: 26px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F07B3F;
+    margin-top: 10px;
+    border-radius: 35px;
+    min-width: 660px;
+    text-shadow: 1px 1px 0.5px rgba(0,0,0,0.6);
+}
+
+/* Nav */
+nav {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Homepage */
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Models page*/
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.modelCard {
+    width: 350px;
+    margin: 0 20px 20px 20px;
+    background-color: #EA5455;
+    text-align: center;
+    border-radius: 40px;
+    border: 8px solid #2D4059;
+}
+
+.modelName {
+    border-radius: 40px;
+    background-color: #2D4059;
+    color: #EA5455;
+    font-weight: 500;
+    width: 95%;
+    margin: 15px auto;
+    padding: 5px 0;
+}
+
+/* Others */
+h1 {
+    font-size: 50px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+a {
+    color: #2D4059;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ol {
+    padding-left: 0;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}

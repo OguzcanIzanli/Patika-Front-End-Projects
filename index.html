@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Patika Frontend Projects</title>
+        <link rel="icon" type="image/x-icon" href="./images/square-js.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+                color: #eeeeee;
+            }
+
+            body {
+                background-color: #222831;
+            }
+
+            h1 {
+                font-size: 5rem;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 4rem;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            h2 span {
+                color: #ffc600;
+                font-family: "Pacifico", cursive;
+            }
+
+            .container {
+                width: 65%;
+                margin: 0 auto;
+                background-color: rgba(238, 238, 238, 0.2);
+                border: 0.5vb solid #ffc600;
+                border-radius: 3vb;
+                margin-bottom: 25px;
+            }
+
+            .projectContainer {
+                display: flex;
+                padding: 2%;
+                justify-content: space-between;
+            }
+
+            .website {
+                position: relative;
+                width: 35%;
+            }
+
+            .website img {
+                border: 0.5vb solid #ffc600;
+                border-radius: 2vb;
+                width: 100%;
+                height: 100%;
+            }
+
+            .website .websiteLink {
+                text-decoration: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.2s;
+                border-radius: 2vb;
+                font-size: 2.4rem;
+                color: #ffc600;
+                font-weight: 600;
+            }
+
+            .websiteLink:hover {
+                background-color: rgba(238, 238, 238, 0.8);
+                border-radius: 2vb;
+                color: #00adb5;
+            }
+
+            .readme {
+                width: 62%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .readmeLink {
+                text-decoration: none;
+                font-size: 1.8em;
+                font-weight: 600;
+                scale: 1;
+                transition: all 0.2s;
+                color: #00adb5;
+            }
+
+            .readmeLink:hover {
+                scale: 1.05;
+            }
+
+            .readmeLink::after {
+                content: "Go Code";
+                color: #ffc600;
+                background-color: rgba(0, 173, 181, 0.3);
+                border-radius: 5px;
+                padding: 3px 5px;
+                margin: 5px;
+                display: inline-block;
+            }
+
+            p {
+                font-size: 1.3em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Patika Frontend Projects</h1>
+        <h2>Patika Week <span>6</span></h2>
+
+        <!-- To Do List -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-6/To-Do-List/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-6/To-Do-List/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/To-Do-List"
+                        target="_blank"
+                        >To Do List
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assian Kitchen -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-6/Assian-Kitchen/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-6/Assian-Kitchen/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Assian-Kitchen"
+                        target="_blank"
+                        >Assian Kitchen
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        Assian Kitchen was created using basic HTML, CSS and
+                        vanilla JavaScript knowledge. Data are fetched from
+                        local json file and items are filtered with the buttons.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chuck Norris Jokes -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-6/Chuck-Norris-Jokes/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-6/Chuck-Norris-Jokes/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Chuck-Norris-Jokes"
+                        target="_blank"
+                        >Chuck Norris Jokes
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        An interactive website showing Chuck Norris jokes was
+                        created using basic HTML, CSS and JavaScript knowledge.
+                        A new joke was pulled every time the page was refreshed
+                        or the user clicked the "Another Joke" button.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dice Game -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-6/Dice-Game/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-6/Dice-Game/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Dice-Game"
+                        target="_blank"
+                        >Dice Game
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        Dice Game using HTML, CSS, and JavaScript. The Dice Game
+                        is based on a two-player. Both players roll the dice and
+                        the player who gets the highest phase value will win the
+                        game.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Patika Week <span>4</span></h2>
+
+        <!-- Drum Kit -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-4/Drum-Kit/assets/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-4/Drum-Kit/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_4/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Drum Kit
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Welcome Screen -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-4/Welcome-Screen/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-4/Welcome-Screen/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_4/tree/main/Welcome-Screen"
+                        target="_blank"
+                        >Welcome Screen
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Patika Week <span>3</span></h2>
+
+        <!-- Bootstrap Instagram Clone -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Bootstrap Homework -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-3/Bootstrap-Hw/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Hw/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Welcome-Screen"
+                        target="_blank"
+                        >Bootstrap Homework
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Patika Week <span>2</span></h2>
+
+        <!-- Google Page -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Google Old Page -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-3/Bootstrap-Hw/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Hw/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Welcome-Screen"
+                        target="_blank"
+                        >Bootstrap Homework
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Navbar Exercise -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-3/Bootstrap-Hw/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Hw/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Welcome-Screen"
+                        target="_blank"
+                        >Bootstrap Homework
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--  CSS Homework -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img src="./Week-3/Bootstrap-Hw/images/gif.gif" alt="gif" />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Hw/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Welcome-Screen"
+                        target="_blank"
+                        >Bootstrap Homework
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Patika Week <span>1</span></h2>
+
+        <!-- HTML Homework 1 -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HTML Homework 2 -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HTML Homework 3 -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HTML Homework 4 -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HTML Homework 5 -->
+        <div class="container">
+            <div class="projectContainer">
+                <div class="website">
+                    <!-- Gif -->
+                    <img
+                        src="./Week-3/Bootstrap-Instagram-Clone/images/gif.gif"
+                        alt="gif"
+                    />
+                    <!-- Page -->
+                    <a
+                        class="websiteLink"
+                        href="./Week-3/Bootstrap-Instagram-Clone/index.html"
+                        target="_blank"
+                        >Go Page</a
+                    >
+                </div>
+                <div class="readme">
+                    <!-- Name and Code Link -->
+                    <a
+                        class="readmeLink"
+                        href="https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Drum-Kit"
+                        target="_blank"
+                        >Bootstrap Instagram Clone
+                    </a>
+                    <!-- Description -->
+                    <p>
+                        To Do List was created using basic HTML, CSS and vanilla
+                        JavaScript knowledge. List contents are kept in
+                        localstorage.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

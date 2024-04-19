@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Indie Flower", cursive;
+}
+
+body {
+    background-color: #393E46
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.result {
+    font-size: 10vb;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+}
+
+.diceBoxContainer {
+    display: flex;
+    height: 60%;
+    width: 40%;
+    gap: 10%;
+}
+
+.diceBox {
+    height: 100%;
+    width: 100%;
+}
+
+.diceBox p {
+    font-size: 7vb;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #4ECCA3;
+}
+
+.diceButton {
+    width: 35%;
+    height: 9%;
+    font-size: 5vb;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2vb;
+    background-color: #4ECCA3;
+  }
+  
+.diceButton:hover {
+    background-color: #4ECCA3;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(4, 217, 18, 0.8);
+}
+
+
+
+.dice {
+    aspect-ratio: 1 / 1;
+    background-color: red;
+    border-radius: 10%;
+    display: flex;
+    padding: 5%;
+}
+
+/* ONE */
+.dice-one {
+    justify-content: center;
+    align-items: center;
+}
+
+/* TWO */
+.dice-two {
+    justify-content: space-between;
+}
+
+.dice-two > div:nth-child(1) {
+    align-self: flex-end;
+}
+
+/* THREE */
+.dice-three {
+    justify-content: space-between;
+}
+
+.dice-three > div:nth-child(1) {
+    align-self: flex-end;
+}
+
+.dice-three > div:nth-child(2) {
+    align-self: center;
+}
+
+/* FOUR */
+.dice-four {
+    flex-wrap: wrap;
+    gap: 40%;
+}
+
+/* FIVE */
+.dice-five {
+    flex-wrap: wrap; 
+    gap: 40%;
+    position: relative;
+}
+
+.dice-five > div:nth-child(5) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 27%;
+    height: 27%;
+}
+
+/* SIX */
+.dice-six {
+    flex-wrap: wrap; 
+    gap: 4% 40%;
+}
+
+/* DICES */
+.one {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.two { 
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.three { 
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.four { 
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.five { 
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.six { 
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #fff;
+}

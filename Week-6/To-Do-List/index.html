@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="listContainer">
+                <div class="header">
+                    <div class="time">
+                        <div class="day"></div>
+                        <div class="month"></div>
+                    </div>
+                    <div class="inputBox">
+                        <input class="input" type="text" />
+                        <button class="button" onclick="addList()">Add</button>
+                    </div>
+                </div>
+
+                <ul class="list"></ul>
+
+                <div class="toastBox"></div>
+            </div>
+        </div>
+        <script src="./js/toDoList.js"></script>
+    </body>
+</html>

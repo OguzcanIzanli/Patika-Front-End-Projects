@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OGUZCAN</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="assets/images/pagelines.svg"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Workbench&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header - Start  -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <i
+                        style="font-size: 3rem; color: #ffe6e6"
+                        class="fa-brands fa-pagelines"
+                    ></i>
+                    <a class="workbench" href="#">OGUZCAN</a>
+                </div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <a class="signUpButton" href="#">Sign Up</a>
+                <div class="menuBarButton">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <!-- Dropdown Menu -->
+            <div class="dropdownMenu">
+                <a class="dropdownNavButton" href="#">Home</a>
+                <a class="dropdownNavButton" href="#">About</a>
+                <a class="dropdownNavButton" href="#">Gallery</a>
+                <a class="dropdownNavButton" href="#">Contact</a>
+                <a class="signUpButton" href="#">Sign Up</a>
+            </div>
+        </header>
+        <!-- Header - End  -->
+
+        <!-- Section - Start -->
+        <section class="home">
+            <div class="home-content">
+                <h3>Hello!</h3>
+                <h1>I am Oğuzcan İzanlı</h1>
+                <h3>and I am Frontend Developer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem corrupti, recusandae impedit omnis voluptates
+                    accusantium?
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/OguzcanIzanli" target="_blank"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/oguzcanizanli
+
+                    "
+                        target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+        </section>
+        <!-- Section - End -->
+
+        <!-- Script -->
+        <script>
+            const menuBarButton = document.querySelector(".menuBarButton");
+            const menuBarButtonIcon =
+                document.querySelector(".menuBarButton i");
+            const dropdownMenu = document.querySelector(".dropdownMenu");
+
+            menuBarButton.onclick = function () {
+                const isOpen = dropdownMenu.classList.contains("open");
+                dropdownMenu.classList.toggle("open");
+                menuBarButtonIcon.classList = isOpen
+                    ? "fa-solid fa-bars"
+                    : "fa-solid fa-xmark";
+            };
+        </script>
+    </body>
+</html>

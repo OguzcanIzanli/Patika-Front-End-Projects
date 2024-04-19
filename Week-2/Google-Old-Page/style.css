@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    width: 90%;
+}
+
+.searchTableRow {
+    background-color: #EEEEEE;
+    height: 60px;
+}
+
+p {
+    margin: 0;
+}
+
+.searchTableRow input {
+    width: 309px;
+}
+
+.searchButtons {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 4px;
+}
+
+a {
+    display: block;
+}
+
+.linksTableRow {
+    height: 74px;
+}
+
+.tableData_1 {
+    background-color: #7EE5DA;
+    width: 37%;
+}
+
+.tableData_2 {
+    background-color: #70CCC2;
+    font-size: 13px;
+}
+
+.tableData_3 {
+    background-color: #62B3AA;
+    font-size: 13px;
+}
