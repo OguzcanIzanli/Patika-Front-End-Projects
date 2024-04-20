@@ -1,8 +1,8 @@
-# Practise - Form Elemanları Kullanımı (input, select, textarea vb.)
+# Form Elemanları Kullanımı (input, select, textarea vb.)
 
 HTML'de basit bir form yapısı oluştıuruldu.
 
-![page img](images/page_img.png)
+![page img](./images/page_img.png)
 
 ## Soru:
 

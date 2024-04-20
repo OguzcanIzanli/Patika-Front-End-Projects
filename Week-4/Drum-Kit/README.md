@@ -1,5 +1,5 @@
-# Javascript - Drum Kit
+# Drum Kit
 
-Temel HTML, CSS ve JavaScript bilgilerini kullanarak interaktif (klavye ve buton) bir Drum Kit web sitesi oluşturuldu.
+An interactive (keyboard and button) Drum Kit website was created using basic HTML, CSS and JavaScript knowledge.
 
 ![page preview](./assets/images/gif.gif)

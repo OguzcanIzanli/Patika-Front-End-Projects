@@ -1,8 +1,8 @@
-# Practise - Tablolarla Çalışmak
+# Tablolarla Çalışmak
 
-Tablo kullanılarak bir sayfa oluşturuldu.
+HTML tablo kullanılarak bir sayfa oluşturuldu.
 
-![page img](images/page_img.png)
+![page img](./images/page_img.png)
 
 ## Soru:
 
