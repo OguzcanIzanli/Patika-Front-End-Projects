@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFEBB2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+
+h1 span {
+    color: var(--borderColor);
+}
+
+.container {
+    display: flex;
+    width: 80vw;
+    margin: 3rem auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.variables {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-top: calc(4rem - var(--borderSize));
+    gap: 1rem;
+}
+
+.variables button {
+    background-color: #d875c7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    scale: 1;
+    transition: all 0.1s;
+}
+
+.variables button:hover {
+    scale: 0.95;
+}
+
+.variables button:active{
+    background-color: #912bbc;
+    scale: 0.9;
+}
+
+.variableBlur, .variableBorderSize {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.variableBorderColor {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Variables */
+
+:root {
+    --borderSize: 5px;
+    --blur: 0px;
+    --borderColor: #ffc600;
+}
+
+.image img{
+    border: var(--borderSize) solid var(--borderColor);
+    filter: blur(var(--blur));
+    border-radius: 30px;
+    margin-right: calc(4rem - var(--borderSize));
+    margin-top: calc(4rem - var(--borderSize));
+}
+
+/* Baseline, reset styles */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 16rem;
+  }
+  
+  /* Removes default focus */
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  /* slider track */
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #d875c7;
+    border-radius: 0.5rem;
+    height: 1rem;
+  }
+  
+  /* slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -4px; /* Centers thumb on the track */
+    background-color: #912bbc;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }

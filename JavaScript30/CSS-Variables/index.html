@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Variables</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <h1>Update CSS Variables with <span>JS</span></h1>
+        <div class="container">
+            <div class="variables">
+                <div class="variableBorderSize">
+                    <label for="borderSize">Border Size:</label>
+                    <input
+                        type="range"
+                        name="borderSize"
+                        min="0"
+                        max="60"
+                        value="5"
+                        data-sizing="px"
+                    />
+                </div>
+
+                <div class="variableBlur">
+                    <label for="blur">Blur:</label>
+                    <input
+                        type="range"
+                        name="blur"
+                        min="0"
+                        max="15"
+                        value="0"
+                        data-sizing="px"
+                    />
+                </div>
+
+                <div class="variableBorderColor">
+                    <label for="borderColor">Border Color:</label>
+                    <input type="color" name="borderColor" value="#ffc600" />
+                </div>
+
+                <button name="changeImg">Change Image</button>
+            </div>
+
+            <div class="image">
+                <img src="https://picsum.photos/id/55/640//480" alt="" />
+            </div>
+        </div>
+        <script src="./js/variables.js"></script>
+    </body>
+</html>
