@@ -1,7 +1,10 @@
-# Patika Front End Projects
+# Patika+ Front-End Projects
 
-You can access codes and pages of the projects with the link below.
+The repository contains projects completed at a basic level as part of the Patika+ Front-End Bootcamp program.
 
+## Live Site
+
+The navbar allows you to navigate between project weeks.
 [Patika Front End Projects](https://oguzcanizanli.github.io/Patika-Front-End-Projects/)
 
 ## Table of Contents
