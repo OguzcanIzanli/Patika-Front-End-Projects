@@ -4,7 +4,7 @@ The repository contains projects completed at a basic level as part of the Patik
 
 ## Live Site
 
-The navbar allows you to navigate between project weeks. You can reach live website link at [Patika Front End Projects](https://oguzcanizanli.github.io/Patika-Front-End-Projects/)
+The navbar allows you to navigate between project weeks. You can reach live website link at [Patika Front End Projects](https://patikafrontendprojects.netlify.app/)
 
 ## Table of Contents
 
