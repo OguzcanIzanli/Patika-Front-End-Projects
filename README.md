@@ -1,6 +1,6 @@
 # Patika+ Front-End Projects
 
-The repository contains projects completed at a basic level as part of the Patika+ Front-End Bootcamp program.
+The repository contains projects completed at a basic level as part of the Patika+ Front-End Web Developer Bootcamp program. Technologies used include HTML, CSS, JavaScript, and Bootstrap.
 
 ## Live Site
 
