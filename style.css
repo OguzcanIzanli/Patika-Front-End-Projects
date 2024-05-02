@@ -176,3 +176,54 @@ p {
 .navbarOpen {
   height: 205px;
 }
+
+@media (max-width: 1400px) {
+  .container,
+  .navbar {
+    width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container,
+  .navbar {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectContainer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .website {
+    width: 60%;
+  }
+
+  .readme {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .website {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .readmeLink {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
