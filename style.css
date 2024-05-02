@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #eeeeee;
+}
+
+body {
+  background-color: #222831;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(90deg, #ffc600 0%, #00adb5 80%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Pacifico", cursive;
+  font-size: 1.6rem;
+}
+
+.navbarBtns {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  position: absolute;
+  right: 0;
+  top: 62px;
+  display: flex;
+  flex-direction: column;
+  background-color: #00adb5;
+  padding: 0 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.navbarBtns a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  transition: all 0.2 linear;
+}
+
+.navbarBtns a:hover {
+  scale: 1.1;
+}
+
+.navbarBtns span {
+  color: #ffc600;
+  font-family: "Pacifico", cursive;
+}
+
+.navbarDropdownBtn {
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h2 span {
+  color: #ffc600;
+  font-family: "Pacifico", cursive;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.2);
+  border: 0.5vb solid #ffc600;
+  border-radius: 3vb;
+  margin-bottom: 25px;
+}
+
+.projectContainer {
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+}
+
+.website {
+  position: relative;
+  width: 35%;
+}
+
+.website img {
+  border: 0.5vb solid #ffc600;
+  border-radius: 2vb;
+  width: 100%;
+  height: 100%;
+}
+
+.website .websiteLink {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  border-radius: 2vb;
+  font-size: 2.4rem;
+  color: #ffc600;
+  font-weight: 600;
+}
+
+.websiteLink:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+  border-radius: 2vb;
+  color: #00adb5;
+}
+
+.readme {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+}
+
+.readmeLink {
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 600;
+  scale: 1;
+  transition: all 0.2s;
+  color: #00adb5;
+}
+
+.readmeLink:hover {
+  scale: 1.05;
+}
+
+.readmeLink::after {
+  content: "Go Code";
+  color: #ffc600;
+  background-color: rgba(0, 173, 181, 0.3);
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.navbarOpen {
+  height: 205px;
+}

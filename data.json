@@ -1,0 +1,168 @@
+[
+  {
+    "javascript30": [
+      {
+        "name": "Ajax Type Ahead",
+        "imgSrc": "./JavaScript30/Ajax-Type-Ahead/images/gif.gif",
+        "pageLink": "./JavaScript30/Ajax-Type-Ahead/index.html",
+        "gitHub": "JavaScript30/Ajax-Type-Ahead",
+        "desc": "A data coming with fetching is matched with input values and listed."
+      },
+      {
+        "name": "Flex Panels Image Gallery",
+        "imgSrc": "./JavaScript30/Flex-Panels/images/gif.gif",
+        "pageLink": "./JavaScript30/Flex-Panels/index.html",
+        "gitHub": "JavaScript30/Flex-Panels",
+        "desc": " Image panel gallery with a flexbox based built in vanilla JavaScript."
+      },
+      {
+        "name": "Playing with CSS Variables and JS",
+        "imgSrc": "./JavaScript30/CSS-Variables/images/gif.gif",
+        "pageLink": "./JavaScript30/CSS-Variables/index.html",
+        "gitHub": "JavaScript30/CSS-Variables",
+        "desc": " CSS variables can be update with JavaScript. So, you can change these properties on the image."
+      },
+      {
+        "name": "CSS + JS Clock",
+        "imgSrc": "./JavaScript30/CSS-JS-Clock/assets/images/gif.gif",
+        "pageLink": "./JavaScript30/CSS-JS-Clock/index.html",
+        "gitHub": "JavaScript30/CSS-JS-Clock",
+        "desc": " An analog clock with sound was created using basic HTML, CSS and JavaScript knowledge."
+      }
+    ],
+
+    "week6": [
+      {
+        "name": "To Do List",
+        "imgSrc": "./Week-6/To-Do-List/images/gif.gif",
+        "pageLink": "./Week-6/To-Do-List/index.html",
+        "gitHub": "Week-6/To-Do-List",
+        "desc": "To Do List was created using basic HTML, CSS and vanilla JavaScript knowledge. List contents are kept in localstorage."
+      },
+      {
+        "name": "Assian Kitchen",
+        "imgSrc": "./Week-6/Assian-Kitchen/images/gif.gif",
+        "pageLink": "./Week-6/Assian-Kitchen/index.html",
+        "gitHub": "Week-6/Assian-Kitchen",
+        "desc": "Assian Kitchen was created using basic HTML, CSS and vanilla JavaScript knowledge. Data are fetched from local json file and items are filtered with the buttons."
+      },
+      {
+        "name": "Chuck Norris Jokes",
+        "imgSrc": "./Week-6/Chuck-Norris-Jokes/images/gif.gif",
+        "pageLink": "./Week-6/Chuck-Norris-Jokes/index.html",
+        "gitHub": "Week-6/Chuck-Norris-Jokes",
+        "desc": " An interactive website showing Chuck Norris jokes was created using basic HTML, CSS and JavaScript knowledge. A new joke was pulled every time the page was refreshed or the user clicked the Another Joke button."
+      },
+      {
+        "name": "Dice Game",
+        "imgSrc": "./Week-6/Dice-Game/images/gif.gif",
+        "pageLink": "./Week-6/Dice-Game/index.html",
+        "gitHub": "Week-6/Dice-Game",
+        "desc": "Dice Game using HTML, CSS, and JavaScript. The Dice Game is based on a two-player. Both players roll the dice and the player who gets the highest phase value will win the game."
+      }
+    ],
+
+    "week4": [
+      {
+        "name": "Drum Kit",
+        "imgSrc": "./Week-4/Drum-Kit/assets/images/gif.gif",
+        "pageLink": "./Week-4/Drum-Kit/index.html",
+        "gitHub": "Week-4/Drum-Kit",
+        "desc": "An interactive (keyboard and button) Drum Kit website was created using basic HTML, CSS and JavaScript knowledge."
+      },
+      {
+        "name": "Welcome Screen",
+        "imgSrc": "./Week-4/Welcome-Screen/images/gif.gif",
+        "pageLink": "./Week-4/Welcome-Screen/index.html",
+        "gitHub": "Week-4/Welcome-Screen",
+        "desc": " Using JavaScript, a screen was called that shows the current time and day when a name is placed on the welcome screen with a prompt on the opened page."
+      }
+    ],
+
+    "week3": [
+      {
+        "name": "Instagram Bootstrap Clone",
+        "imgSrc": "./Week-3/Bootstrap-Instagram-Clone/images/gif.gif",
+        "pageLink": "./Week-3/Bootstrap-Instagram-Clone/index.html",
+        "gitHub": "Week-3/Bootstrap-Instagram-Clone",
+        "desc": "Bootstrap kullanılarak yapılmış basit bir HTML instagram clone'u."
+      },
+      {
+        "name": "Bootstrap Özellikleri Kullanılarak Yapılan Sayfa",
+        "imgSrc": "./Week-3/Bootstrap-Hw/images/gif.gif",
+        "pageLink": "./Week-3/Bootstrap-Hw/index.html",
+        "gitHub": "Week-3/Bootstrap-Hw",
+        "desc": "Daha önce basit bir şekilde CSS kullanılarak oluşturulan site, Bootstrap özellikleri kullanılarak daha estetik hale getirildi."
+      }
+    ],
+
+    "week2": [
+      {
+        "name": "Google Ana Sayfasını Tasarlamak",
+        "imgSrc": "./Week-2/Google-Homepage/images/gif.gif",
+        "pageLink": "./Week-2/Google-Homepage/index.html",
+        "gitHub": "Week-2/Google-Homepage",
+        "desc": "HTML ve CSS kullanılarak Google anasayfanın tasarımı yapıldı."
+      },
+      {
+        "name": "Google Eski Ana Sayfasını Tasarlamak",
+        "imgSrc": "./Week-2/Google-Old-Homepage/images/google_old.png",
+        "pageLink": "./Week-2/Google-Old-Homepage/index.html",
+        "gitHub": "Week-2/Google-Old-Homepage",
+        "desc": " HTML ve CSS kullanılarak 1998 yılında ki Google anasayfasının tasarımı yapıldı."
+      },
+      {
+        "name": "Responsive Navbar",
+        "imgSrc": "./Week-2/Navbar-Exercise/images/gif.gif",
+        "pageLink": "./Week-2/Navbar-Exercise/index.html",
+        "gitHub": "Week-2/Navbar-Exercise",
+        "desc": "CSS ve HTML ile Responsive tasarımdan yararlanılarak navbar'da sayfa genişliğine bağlı olarak açılıp kapanabilen dropdown tasarlandı."
+      },
+      {
+        "name": "HTML Sayfasına CSS Eklemek",
+        "imgSrc": "./Week-2/CSS-Hw/images/gif.gif",
+        "pageLink": "./Week-2/CSS-Hw/index.html",
+        "gitHub": "Week-2/CSS-Hw",
+        "desc": "External ve internel CSS kullanılarak birkaç sayfadan oluşan bir HTML sayfası oluşturuldu."
+      }
+    ],
+
+    "week1": [
+      {
+        "name": "İlk Web Sayfamızı Oluşturmak",
+        "imgSrc": "./Week-1/HTML-Hw-1/images/gif.gif",
+        "pageLink": "./Week-1/HTML-Hw-1/index.html",
+        "gitHub": "Week-1/HTML-Hw-1",
+        "desc": "Sadece HTML kullanılarak ilk web sayfası tasarlandı. Web sayfasında en çok kullanılan HTML etiketleri ile bir motosiklet tanıtımı yapıldı."
+      },
+      {
+        "name": "Kişisel Sayfamızı Detaylandırmaya Devam Etmek",
+        "imgSrc": "./Week-1/HTML-Hw-2/images/page_img.png",
+        "pageLink": "./Week-1/HTML-Hw-2/index.html",
+        "gitHub": "Week-1/HTML-Hw-2",
+        "desc": "HTML ile oluşturulan kişisel web sayfası detaylandırıldı."
+      },
+      {
+        "name": "Magnolia Tarifi",
+        "imgSrc": "./Week-1/HTML-Hw-3/images/page_img.png",
+        "pageLink": "./Week-1/HTML-Hw-3/index.html",
+        "gitHub": "Week-1/HTML-Hw-3",
+        "desc": "Tatlının tarifi öğrenilen bir web sitesini, HTML etiketleri ve CSS kullanılarak yeniden oluşturuldu."
+      },
+      {
+        "name": "Tablolarla Çalışmak",
+        "imgSrc": "./Week-1/HTML-Hw-4/images/page_img.png",
+        "pageLink": "./Week-1/HTML-Hw-4/index.html",
+        "gitHub": "Week-1/HTML-Hw-4",
+        "desc": "HTML tablo kullanılarak bir sayfa oluşturuldu."
+      },
+      {
+        "name": "Form Elemanları Kullanımı (input, select, textarea vb.)",
+        "imgSrc": "./Week-1/HTML-Hw-5/images/page_img.png",
+        "pageLink": "./Week-1/HTML-Hw-5/index.html",
+        "gitHub": "Week-1/HTML-Hw-5",
+        "desc": "HTML'de basit bir form yapısı oluştıuruldu."
+      }
+    ]
+  }
+]
