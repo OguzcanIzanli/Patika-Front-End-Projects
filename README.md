@@ -14,6 +14,8 @@ The navbar at the top of the page allows for easy navigation between project wee
 
 You can access the live website [here](https://patikafrontendprojects.netlify.app/).
 
+https://github.com/OguzcanIzanli/Patika-Front-End-Projects/assets/95178772/0d8001a7-fd7e-47fd-a3ee-3b564faf33a9
+
 ## Table of Contents
 
 - JavaScript 30 <img align="center" src="./images/html.png" height="16"> <img align="center" src="./images/css.png" height="16"> <img align="center" src="./images/js.png" height="16">
