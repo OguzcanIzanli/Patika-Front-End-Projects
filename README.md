@@ -1,10 +1,18 @@
 # Patika+ Front-End Projects
 
-The repository contains projects completed at a basic level as part of the Patika+ Front-End Web Developer Bootcamp program. Technologies used include HTML, CSS, JavaScript, and Bootstrap.
+This repository contains a collection of 21 web development projects showcasing various technologies such as JavaScript, HTML, CSS, and Bootstrap. Each project offers a unique demonstration of web development skills and concepts.
+
+## Introduction
+
+This repository hosts projects. From basic HTML and CSS layouts to dynamic JavaScript applications, these projects serve as learning resources and examples for web developers of all levels.
+
+### Navbar Navigation
+
+The navbar at the top of the page allows for easy navigation between project weeks. Simply click on the desired week to jump directly to the projects for that week.
 
 ## Live Site
 
-The navbar allows you to navigate between project weeks. You can reach live website link at [Patika+ Front-End Projects](https://patikafrontendprojects.netlify.app/)
+You can access the live website [here](https://patikafrontendprojects.netlify.app/).
 
 ## Table of Contents
 
