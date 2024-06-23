@@ -24,10 +24,10 @@ https://github.com/OguzcanIzanli/Patika-Front-End-Projects/assets/95178772/0d800
   - [CSS Variables](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/JavaScript30/CSS-Variables)
   - [Clock](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/JavaScript30/CSS-JS-Clock)
 - Week 6 <img align="center" src="./images/js.png" height="16">
-  - [To Do List](https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/To-Do-List)
-  - [Assian Kitchen](https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Assian-Kitchen)
-  - [Chuck Norris Jokes](https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Chuck-Norris-Jokes)
-  - [Dice Game](https://github.com/OguzcanIzanli/Patika_Week_6/tree/main/Dice-Game)
+  - [To Do List](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-6/To-Do-List)
+  - [Assian Kitchen](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-6/Assian-Kitchen)
+  - [Chuck Norris Jokes](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-6/Chuck-Norris-Jokes)
+  - [Dice Game](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-6/Dice-Game)
 - Week 4 <img align="center" src="./images/js.png" height="16">
   - [Drum Kit](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-4/Drum-Kit)
   - [Welcome Screen](https://github.com/OguzcanIzanli/Patika-Front-End-Projects/tree/main/Week-4/Welcome-Screen)
